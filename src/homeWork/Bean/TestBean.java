@@ -3,16 +3,16 @@ package homeWork.Bean;
 /**
  * 测试题的抽象类
  */
-public class testBean {
+public class TestBean {
     int key;
     int number1;
     int number2;
     String symbol;
-    public  testBean(){
+    public TestBean(){
 
     }
 
-    public testBean(int key, int number1, int number2, String symbol) {
+    public TestBean(int key, int number1, int number2, String symbol) {
         this.key = key;
         this.number1 = number1;
         this.number2 = number2;
